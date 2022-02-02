@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/postListFragment">
+    <fragment
+        android:id="@+id/addPostFragment"
+        android:name="com.anas.cleanarchitecturetestlab.firebase.presention.addPost.AddPostFragment"
+        android:label="fragment_add_post"
+        tools:layout="@layout/fragment_add_post" />
+    <fragment
+        android:id="@+id/postListFragment"
+        android:name="com.anas.cleanarchitecturetestlab.firebase.presention.postList.PostListFragment"
+        android:label="fragment_post_list"
+        tools:layout="@layout/fragment_post_list" />
+</navigation>
